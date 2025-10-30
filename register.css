@@ -141,7 +141,7 @@ body
     color: #7b44ff
 }
 /* Thông báo nổi */
-.popup_message 
+.popup-message 
 {
     position: fixed;
     top: -50px;
@@ -158,13 +158,13 @@ body
     z-index: 999;
 }
 
-.popup_message.show 
+.popup-message.show 
 {
     top: 20px;
     opacity: 1;
 }
 
-.popup_message.error 
+.popup-message.error 
 {
     background: #ff4d4d;
 }
